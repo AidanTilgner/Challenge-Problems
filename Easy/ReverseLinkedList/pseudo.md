@@ -23,8 +23,11 @@ Steps:
     function reverseLinkedList(head){
         make reversed array
         let addToReversed = (head) => {
-            array.push(head.value)
+            array.push(ListNode(head.value))
             if (head.next) addToReversed(head.next)
+        }
+        for (every node in the array except the last){
+            Node.next = nextNode
         }
     }
 </script>
