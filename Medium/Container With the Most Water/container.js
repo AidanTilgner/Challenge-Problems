@@ -1,3 +1,5 @@
+// ! Try to find a way to do this in O(n) time
+
 function ContainerWithMostWater(height) {
   let maxArea = 0;
   for (let i = 0; i < height.length; i++) {
