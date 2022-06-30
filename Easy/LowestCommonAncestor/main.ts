@@ -10,7 +10,7 @@ class TreeNode {
   }
 }
 
-const LCA = (root: TreeNode, p: TreeNode, q: TreeNode): TreeNode => {
+const LCA = (root: TreeNode, p: TreeNode, q: TreeNode) => {
   let cur = root;
 
   while (cur) {
